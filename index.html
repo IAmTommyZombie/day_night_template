@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Template 1, light and dark modes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="stop-scrolling">
+    <main>
+      <div class="big-wrapper light">
+        <img src="img/shape.png" alt="shape" class="shape" />
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="Logo" />
+              <h3>White Shirt Phone Guy Productions</h3>
+            </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">Hair Pomade</a></li>
+                <li><a href="#">White Shirt</a></li>
+                <li><a href="#">Dank Memes</a></li>
+                <li><a href="#" class="btn">Become Cool</a></li>
+              </ul>
+            </div>
+            <!--This is an empty div that's the background of the landing page when the hamburger nav bar is open-->
+            <div class="overlay"></div>
+
+            <!--This is the nav menu for smaller screens-->
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+        <div class="showcase-area">
+          <!-- This is a middle section that has two colums-->
+          <!-- Therefore it is a grid in styles-->
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>This guys is cool,</h1>
+                <h1>You can be cool too</h1>
+              </div>
+              <p class="text">
+                Have you ever wanted to look as cool as this guy in a white t
+                shirt looking at something funny on your phone? Now's your
+                chance. Sign up today, and you will receive awesome hair pomade,
+                a sick white t shirt, and the dankest memes sent right to your
+                phone.
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Become Cool</a>
+              </div>
+            </div>
+
+            <div class="right">
+              <img src="./img/person.png" alt="Person" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="fa-solid fa-moon"></i>
+              <i class="fa-solid fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/f3d701d41c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
